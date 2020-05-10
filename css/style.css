@@ -267,8 +267,7 @@ img {
     }
 
     .formation-icone {
-        padding-top: 20px;
-        padding-left: 70px;
+        padding: 10px 55px;
     }
 
     .formation-contenu {
@@ -277,7 +276,7 @@ img {
     }
 
     .experience-icone {
-        padding-left: 36px;
+        padding: 10px 55px;
     }
 
     .experience-contenu {
@@ -285,6 +284,6 @@ img {
     }
 
     .recommandation-icone {
-        padding-left: 33px;
+        padding: 10px 55px;
     }
 }
