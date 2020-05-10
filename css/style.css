@@ -162,7 +162,7 @@ h5 + p {
 }
 
 .loisirs-icones img {
-    width: 55px;
+    max-width: 15%;
 }
 
 .loisirs-titre {
@@ -249,7 +249,7 @@ h5 + p {
 @media screen and (min-width: 375px) and (max-width: 667px) {
 
     .loisirs-icones img {
-        max-width: 55px;
+        max-width: 15%;
     }
 
     h1 {
