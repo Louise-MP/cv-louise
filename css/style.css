@@ -96,9 +96,7 @@ h5 + p {
     line-height: 35px;
 }
 
-img {
-    max-width: 65%;
-}
+
 
 
 /*.container-fluid {
@@ -110,6 +108,10 @@ img {
 /* bandeau latéral */
 .photo-profil {
     margin-top: 65px;
+}
+
+.photo-profil img {
+    max-width: 65%;
 }
 
 .titre2 {
@@ -247,7 +249,7 @@ img {
 @media screen and (min-width: 375px) and (max-width: 667px) {
 
     .loisirs-icones img {
-        width: 55px;
+        max-width: 55px;
     }
 
     h1 {
