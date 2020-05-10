@@ -1,0 +1,291 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* container */
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 6px 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+h5 {
+    text-transform: uppercase;
+    color:rgb(188,143,143);
+}
+
+h5 + p {
+    font-weight: bold;
+}
+
+.row {
+    line-height: 35px;
+}
+
+img {
+    max-width: 65%;
+}
+
+
+/*.container-fluid {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+}*/
+
+
+/* bandeau latéral */
+.photo-profil {
+    margin-top: 65px;
+}
+
+.titre2 {
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 130px;
+}
+
+.bandeau-lateral {
+    background-color: rgb(188,143,143);
+}
+
+/* contact */
+.contact-titre {
+    background-color:#fff;
+    margin-top: 45px;
+    color:
+}
+
+.contact-contenu {
+    margin: 30px 0;
+    height: 250px;
+}
+
+.contact-contenu ul li {
+    line-height: 40px;
+}
+
+/* a propos de moi */
+.apropos-titre {
+    background-color:#fff;
+}
+
+.apropos-contenu {
+    margin-top: 30px; 
+    line-height: 30px;
+}
+
+/* loisirs */
+
+.loisirs {
+    bottom: 0;
+    width: 100%;
+}
+.loisirs-icones {
+    margin: 30px 0 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.loisirs-icones img {
+    width: 55px;
+}
+
+.loisirs-titre {
+    background-color:#fff;
+    color:;
+}
+/* contenu principal */
+.contenu-principal {
+}
+
+/* formation */
+.formation-icone {
+    display: flex;
+}
+
+.formation-icone img {
+    width: 35px;
+    height: 35px;
+    margin: 5px 16px 0;
+}
+
+.formation-date {
+    display: flex;
+}
+
+.formation-date2 {
+    display: flex;
+}
+
+.formation-date2 img {
+    width: 10px;
+    height: 10px;
+    margin: 10px 10px 0;
+}
+
+.formation-date img {
+    width: 15px;
+    height: 15px;
+    margin: 8px;
+}
+
+
+/* experience pro */
+.experience-icone {
+    display: flex;
+}
+
+.experience-icone img {
+    width: 35px;
+    height: 35px;
+    margin: 1px 16px 0;
+}
+
+.experience-date {
+    display: flex;
+}
+
+.experience-date img {
+    width: 15px;
+    height: 15px;
+    margin: 8px 13px 0;
+}
+
+.experience-contenu {
+    margin: 32px 0 30px 35px;
+}
+
+/* recommandations */
+.recommandation-icone {
+    display: flex;
+}
+
+.recommandation-icone img {
+    width: 35px;
+    height: 35px;
+    margin: 5px 16px 0;
+}
+
+.recommandation-contenu {
+    margin: 15px 0 30px 35px;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+
+    img {
+        max-width: 65%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .apropos {
+        margin-bottom: 200px;
+    }
+
+    .row.mb-5 {
+        margin: auto;
+    }
+
+    .formation-icone {
+        padding-top: 20px;
+        padding-left: 70px;
+    }
+
+    .formation-contenu {
+        display: contents;
+        text-align: justify;
+    }
+
+    .experience-icone {
+        padding-left: 36px;
+    }
+
+    .experience-contenu {
+        display: contents;
+    }
+
+    .recommandation-icone {
+        padding-left: 33px;
+    }
+}
