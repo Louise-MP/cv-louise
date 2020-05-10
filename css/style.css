@@ -246,7 +246,9 @@ img {
 
 @media screen and (min-width: 375px) and (max-width: 667px) {
 
-    
+    .loisirs-icones img {
+        width: 55px;
+    }
 
     h1 {
         font-size: 45px;
