@@ -246,9 +246,7 @@ img {
 
 @media screen and (min-width: 375px) and (max-width: 667px) {
 
-    img {
-        max-width: 65%;
-    }
+    
 
     h1 {
         font-size: 45px;
