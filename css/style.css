@@ -156,18 +156,15 @@ h5 + p {
     width: 100%;
 }
 .loisirs-icones {
-    margin: 30px 0 40px;
-    display: flex;
+    display: grid;
     justify-content: space-around;
 }
 
 .loisirs-icones img {
-    max-width: 15%;
 }
 
 .loisirs-titre {
     background-color:#fff;
-
 }
 /* contenu principal */
 /*.contenu-principal {
