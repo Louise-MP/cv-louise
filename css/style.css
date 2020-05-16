@@ -157,10 +157,15 @@ h5 + p {
 }
 .loisirs-icones {
     display: grid;
-    justify-content: space-around;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
 }
 
-.loisirs-icones img {
+.col-4 {
+    max-width: 100%;
+    height: auto;
 }
 
 .loisirs-titre {
@@ -204,6 +209,7 @@ h5 + p {
 /* experience pro */
 .experience-icone {
     display: flex;
+    align-items: center;
 }
 
 .experience-icone img {
