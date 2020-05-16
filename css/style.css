@@ -156,7 +156,10 @@ h5 + p {
     width: 100%;
 }
 .loisirs-icones {
-    
+    display: grid;
+    grid-gap: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-4 img {
