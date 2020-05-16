@@ -162,6 +162,10 @@ h5 + p {
     align-items: center;
 }
 
+.loisirs-icones .row {
+    padding: 20px 0;
+}
+
 .col-4 img {
     height: 50px;
 }
@@ -246,9 +250,13 @@ h5 + p {
 
 
 @media screen and (min-width: 375px) and (max-width: 667px) {
+    .contenu-principal img {
+        display: none;
+    }
+
 
     .loisirs-icones img {
-        width: 15%;
+        height: 50px;
     }
 
     h1 {
@@ -267,23 +275,11 @@ h5 + p {
     }
 
     .formation-icone {
-        padding: 10px 55px;
+        
     }
 
     .formation-contenu {
-        display: contents;
         text-align: justify;
     }
 
-    .experience-icone {
-        padding: 10px 55px;
-    }
-
-    .experience-contenu {
-        display: contents;
-    }
-
-    .recommandation-icone {
-        padding: 10px 55px;
-    }
 }
