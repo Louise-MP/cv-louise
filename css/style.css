@@ -111,9 +111,7 @@ h5 + p {
 }
 
 .titre2 {
-    margin-top: 100px;
-    margin-left: 40px;
-    margin-bottom: 130px;
+    margin: 100px 0 171px 40px;
 }
 
 .bandeau-lateral {
@@ -177,6 +175,7 @@ h5 + p {
 /* formation */
 .formation-icone {
     display: flex;
+    border-bottom: 2px solid rgb(188,143,143);
 }
 
 .formation-icone img {
@@ -209,6 +208,7 @@ h5 + p {
 .experience-icone {
     display: flex;
     align-items: center;
+    border-bottom: 2px solid rgb(188,143,143);
 }
 
 .experience-icone img {
@@ -233,6 +233,7 @@ h5 + p {
 /* recommandations */
 .recommandation-icone {
     display: flex;
+    border-bottom: 2px solid rgb(188,143,143);
 }
 
 .recommandation-icone img {
