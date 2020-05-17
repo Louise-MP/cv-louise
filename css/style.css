@@ -96,14 +96,10 @@ h5 + p {
     line-height: 35px;
 }
 
-
-
-
 /*.container-fluid {
     display: grid;
     grid-template-columns: 350px 1fr;
 }*/
-
 
 /* bandeau latéral */
 .photo-profil {
@@ -173,6 +169,7 @@ h5 + p {
 .loisirs-titre {
     background-color:#fff;
 }
+
 /* contenu principal */
 /*.contenu-principal {
 }*/
@@ -244,16 +241,10 @@ h5 + p {
     margin: 5px 16px 0;
 }
 
-.recommandation-contenu {
-    
-}
-
-
 @media screen and (min-width: 375px) and (max-width: 667px) {
     .contenu-principal img {
         display: none;
     }
-
 
     .loisirs-icones img {
         height: 50px;
@@ -281,5 +272,4 @@ h5 + p {
     .formation-contenu {
         text-align: justify;
     }
-
 }
