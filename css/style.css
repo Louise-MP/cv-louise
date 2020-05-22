@@ -226,13 +226,13 @@ h5 + p {
     margin: 5px 16px 0;
 }
 
-@media screen and (min-width: 375px) and (max-width: 667px) {
+@media screen and (max-width: 767px) {
     .contenu-principal img {
         display: none;
     }
 
     .loisirs-icones img {
-        height: 50px;
+        height: 40px;
     }
 
     h1 {
